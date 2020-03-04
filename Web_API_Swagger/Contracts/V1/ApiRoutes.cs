@@ -17,5 +17,13 @@ namespace Web_API_Swagger.Contracts
             public const string Get = Base + "/posts/{postId}";
             public const string Create = Base + "/create";
         }
+
+        public static class User
+        {
+            public const string GetAllUsers = Base + "/Users";
+            public const string saveUser = Base + "/saveUser";
+            public const string Get = Base + "/user/{postId}";
+            public const string DeleteUser = Base + "/deleteUser";
+        }
     }
 }
